@@ -1,0 +1,792 @@
+/* Reset and base styles  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  header{
+    background-color: #FFFFFF;
+  }
+  .headerZXC{
+    display: flex;
+align-items: center;
+
+    width: 1920px;
+    height: 90px;
+  }
+  .name{
+    font-size: 25px;
+    margin-left: 204px;
+    color: black;
+    font-weight: bold;
+  }
+  .other{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 19px;
+
+  }
+  .pr{display: flex;
+margin-left: 480.5px;
+margin-right: 66.5px;
+color: black;}
+.ab{
+    display: flex;
+margin-left: 10px;
+margin-right: 66.5px;
+color: black;
+}
+.news{
+    display: flex;
+margin-left: 10px;
+margin-right: 66.5px;
+color: black;
+}
+.team{
+    display: flex;
+margin-left: 10px;
+margin-right: 66.5px;
+color: black;
+}
+.contact{
+    display: flex;
+margin-left: 10px;
+margin-right: 66.5px;
+color: black;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+
+}
+.ebani{
+    display: flex;
+width: 206.67px;
+height: 46px;
+background-color: black;
+border-radius: 46px;
+}
+.OnePos{
+    display: flex;
+    width: 1920px;
+    height: 720px;
+    background-color: #ECE7E4;
+}
+.zxc{
+    display: flex;
+    margin-left: 172px;
+}
+.txt{
+    display: flex;
+    font-size: 20px;
+    color: #645C55;
+    margin-left: 133.44px;
+    margin-top: 144px;
+}
+.txtTwo{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 40px;
+    margin-left: 133.44px;
+    margin-top: 10px;
+}
+.txtThree{
+    display: flex;
+    font-size: 20px;
+    color: #403E3B;
+    margin-left: 133.44px;
+    margin-top: 10px;
+}
+.txtChetiri{
+    display: flex;
+color: #1B1A1A;
+font-size: 16px;
+margin-left: 133.44px;
+margin-top: 40px;
+}
+
+.ThreePos{
+    display: flex;
+    width: 1920px;
+    height: 781.76px;
+    background-color: #FFFFFF;
+}
+.Our{
+    display: flex;
+    margin-left: 248px;
+    margin-top: 103.5px;
+    font-size: 25px;
+    color: #403E3B;
+}
+.Loren{
+    display: flex;
+    font-size: 20px;
+    margin-top: -27px;
+    margin-left: 600px;
+}
+.LorenTwo{
+    display: flex;
+    font-size: 20px;
+    margin-top: 40px;
+margin-left: 600px;
+}
+.LorenFoo{
+    display: flex;
+    font-size: 20px;
+    margin-top: 40px;
+margin-left: 600px;
+}
+.men{
+display: flex;
+width: 112PX;
+height: 84PX;
+margin-left: 600PX ;
+margin-top: 30PX;
+}
+.Stepa{
+    display: flex;
+    color: #1B1A1A;
+    margin-left: 735px;
+    margin-top: -65px;
+    font-size: 17px;
+}
+.Senya{
+    display: flex;
+    color: #645C55;
+    margin-left: 735px;
+}
+.ChetitiPos{
+    display: flex;
+    width: 1920px;
+    height: 600px;
+    background-image: url(./img/fonts.png);
+}
+.Run{
+    display: flex;
+    color: #403E3B;
+margin-top: 290px;
+    margin-left: 1400px;
+    font-size: 20px;
+}
+.Dota2{
+    display: flex;
+    color: #645C55;
+    margin-left: 1400px;
+}
+.Our{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: center;
+margin-top: 100px;
+width: auto;
+display: flex;
+    justify-content: center;
+    margin-right: 580px;
+}
+
+.How {
+    font-family: Poppins;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.knopka{
+    display: flex;
+justify-content: space-between;
+    flex-direction: row;
+    width: 1420px;
+    height: 259px;
+margin-left: 145px;
+margin-top: 40px;
+}
+
+.knopka-1{
+    width: 378.66px;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 136px;
+}
+
+.goi{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+    margin-top: 15px;
+}
+.Lor{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 10px;
+}
+
+
+.knopka-2{
+    width: 378.66px;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.fina{
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin-top: 15px;
+}
+.Adipis{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+margin-top: 12px;
+}
+
+.knopka-3{
+    width: 378.66px;
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.Building{
+    font-family: Poppins;
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+margin-top: 15px;
+}
+.Alt{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+margin-top: 12px;
+}
+.sixPos{
+    width: 1920px;
+    height: 600px;
+    background-image: url(./img/fon2.png);
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-size: auto;
+}
+.marvel{
+    display: flex;
+    margin-left: 1700px;
+    color: #403E3B;
+    margin-top: 260px;
+}
+.dolor{
+    display: flex;
+    color: #645C55;    
+    margin-top: 10px;
+    margin-left: 1700px;
+
+}
+.SevenPos{
+    display: flex;
+    width: 1920px;
+    height: 410px;
+    background-color: #403E3B;
+}
+.priora{
+    display: flex;
+    color: #ECE7E4;
+    font-size: 17px;
+margin-left: 100px;
+margin-top: 70px;
+}
+.Happy{
+    display: flex;
+    font-size: 27px;
+    color: #FFFFFF;
+    margin-top: 89px;
+    margin-left: -82px;
+}
+.Morda{
+    display: flex;
+    color: #ECE7E4;
+    font-size: 15px;
+    margin-top: 127px;
+    margin-left: -197px;
+}
+.eulOfScadi{
+    display: flex;
+    margin-left: 410px;
+}
+.Pos8{
+    display: flex;
+    width: 1920px;
+    height: 600px;
+    background-image: url(./img/FontsZxcGhoul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Swat{
+    display: flex;
+    color: #403E3B;
+    font-size: 18px;
+    margin-top: 200px;
+    margin-left: 40px;}
+.Docks{
+    display: flex;
+    font-size: 20px;
+    color: #645C55;
+    margin-top: 222px;
+    margin-left: -154px;
+}
+.Pos9{
+    display: flex;
+    width: 1920px;
+    height: 918px;
+    background-color: #F7F7F7;
+}
+.Furion{
+display: flex;
+font-size: 42px;
+margin-top: 60px;
+margin-left: 100px;
+}
+.Farm{
+    display: flex;
+    color: #645C55;
+    font-size: 30px;
+    margin-top: 110px;
+    margin-left: -290px;
+}
+.Bilding{
+    display: flex;
+    width: 375px;
+    height: 456px;
+    background-image: url(./img/bilding.png);
+    
+    margin-left: -570px;
+}
+.Cofe{
+    display: flex;
+    width: 375px;
+    height: 456px;
+    background-image: url(./img/cofe.png);
+ 
+
+}
+.New_York{
+    display: flex;
+    color: #645C55;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Barbur{
+    display: flex;
+    color: #403E3B;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: -80px;
+}
+.Button{
+    display: flex;
+    width: 133px;
+    height: 46px;
+    background-color: #1B1A1A;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 380px;
+    margin-left: -200px;
+
+}
+.rita{
+    display: flex;
+    color: #FFFFFF;
+
+}
+.lestnica{
+    display: flex;
+    width: 375px;
+    height: 456px;
+    background-image: url(./img/lesttnica.png);
+    
+
+}
+.fotcki{
+display: flex;
+align-items: center;
+gap: 300px;
+}
+.Pos10{
+display: flex;
+width: 1920px;
+height: 800px;
+background-color: #FFFFFF;
+}
+
+.Meetelka{
+    display: flex;
+    color: #403E3B;
+    font-size: 38px;
+    margin-top: 100px;
+margin-left: 50px;
+}
+.Morari{
+    display: flex;
+    color: #645C55;
+    font-size: 24px;
+    margin-top: 150px;
+    margin-left: -220px;
+}
+.SiSi{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 24px;
+    margin-top: 240px;
+    margin-left: -350px;
+
+}
+.Pidarasi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+.Stephen{
+    display: flex;
+    font-size: 26px;
+    color: #1B1A1A;
+    margin-top: 164px;
+    margin-left: 20px;
+}
+.Serioga{
+    display: flex;
+    color: #645C55;
+    font-size: 14px;
+    margin-top: 196px;
+    margin-left: -160px;
+}
+.Frick{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 26px;
+    margin-top: 400px;
+    margin-left: -80px;
+}
+.Asasin{
+    display: flex;
+    color: #645C55;
+    font-size: 14px;
+    margin-top: 430px;
+    margin-left: -150px;
+}
+.Neko{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 26px;
+    margin-top: 639px;
+    margin-left: -90px;
+}
+.Para{
+    display: flex;
+    color: #645C55;
+    font-size: 14px;
+    margin-top: 669px;
+    margin-left: -110px;
+}
+.Niger{
+    margin-left: 400px;
+    margin-top: 150px;
+
+}
+.Nolan{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 26px;
+    margin-top: 160px;
+    margin-left: 20PX;
+}
+.Phantom{
+    display: flex;
+    color: #645C55;
+    font-size: 14px;
+    margin-top: 190px;
+    margin-left: -130px;
+}
+.Obegorili{
+    margin-top: 370px;
+    margin-left: -150px;
+}
+.Obogreli{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 26px;
+    margin-top: 380px;
+    margin-left: 20px;
+}
+.Senior{
+    display: flex;
+    color: #645C55;
+    font-size: 14px;
+    margin-top: 410px;
+    margin-left: -110px;
+}
+.Pos11{
+    display: flex;
+    width: 1920px;
+    height: 314px;
+    background-color: #CEC4BC;
+
+}
+.GoidaMet{
+    display: flex;
+    color: #645C55;
+    font-size: 20px;
+    margin-top: 80px;
+margin-left: 100px;
+}
+.NNGoidaDayn{
+    display: flex;
+    color: #1B1A1A;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-left: -100px;
+
+}
+.Pen{
+    display: flex;
+    flex-direction: row;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #645C55;
+margin-left: 152px;
+}
+.Power{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 20px;
+margin-left: 152px;
+color: #645C55;
+}
+.Wish{
+margin-top: 62px;
+margin-left: 152px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.End{
+    width: 1920px;
+height: 204px;
+
+display: flex;
+flex-direction: column;
+
+display: flex;
+flex-direction: row;
+}
+.img-end img{
+    width: 112px;
+height: 24.61px;
+display: flex;
+}
+.img-end{
+margin-top: 120px;
+margin-left: 1175px;
+}
